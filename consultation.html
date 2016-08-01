@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+<div class="container-fluid">
+    <!--menu-->
+    <div class="row">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-2">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">osteoporosis.belmapo.by</a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">О нас <span class="sr-only">(current)</span></a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                               aria-expanded="false">Важная информация<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li class="active"><a href="specialist.html">Для специалиста</a></li>
+                                <li class="divider"></li>
+                                <li><a href="clients.html">Для пациента</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Консультативная помощь</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="navbar-form navbar-left" role="search">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Введите слово">
+                        </div>
+                        <button type="submit" class="btn btn-success">Искать</button>
+                    </form>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">Персоналии</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!--end menu-->
+
+    <!--start jumbotron block-->
+    <div class="row">
+        <div class="jumbotron">
+            <img src="img/medical-specialist.png" alt="" class="img-circle img-responsive center-block">
+            <h1 class="text-center">Для специалиста</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A autem eaque quibusdam.</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+            <img src="img/chemistry-class-instructions.png" alt="" class="center-block img-responsive ">
+            <p class="text-center">Рекомендации, инструкции, руководства, лекции <span class="badge">182</span></p>
+            <p><a class="btn btn-danger btn-block" data-toggle="modal" data-target="#myModal">Подробнее</a></p>
+        </div>
+        <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+            <img src="img/article.png" alt="" class="center-block img-responsive ">
+            <p class="text-center">Публикации <br> <span class="badge">42</span></p>
+            <p><a class="btn btn-danger btn-block" data-toggle="modal" data-target="#myModa2">Подробнее</a></p>
+        </div>
+        <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+            <img src="img/microscope.png" alt="" class="center-block img-responsive ">
+            <p class="text-center">Научные исследования <br> <span class="badge">42</span></p>
+            <p><a class="btn btn-danger btn-block" data-toggle="modal" data-target="#myModa3">Подробнее</a></p>
+        </div>
+        <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+            <img src="img/link-symbol-of-two-chains-links-linked.png" alt="" class="center-block img-responsive ">
+            <p class="text-center">Рекомендуемая литература и ссылки на сайты <span class="badge">7</span></p>
+            <!-- Button trigger modal -->
+            <p><a class="btn btn-danger btn-block" data-toggle="modal" data-target="#myModa4">Подробнее</a></p>
+
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                    aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi dolor eaque earum.</p>
+                            <ol>
+                                <li>
+                                    <a href="http://belmapo.by/assets/files/kafedry/poliklinicheskaya-pediatriya/deficit-vitamina-d.pdf"
+                                       target="_self">Методы диагностики и лечения дефицита витаина Д, костных и
+                                        минеральных нарушений у детей с хронической болезнью почек (инструкция по
+                                        применению)</a>, авторы к.м.н. Байко С.В., д.м.н., профессор, член корр. НАН
+                                    Беларуси Сукало А.В., д.м.н., профессор Руденко Э.В., Чеботарѐва Т.К.<br><br><br<
+                                    li="">
+                                    </br<>
+                                </li>
+                                <li>
+                                    «<a href="http://osteoporosis.belmapo.by/downloads/2010/instrukcii/d_l_kostn_mas.pdf"
+                                        target="_self">Диагностика и лечение дефицита костной массы и остеопороза у
+                                    детей</a>», (<em>учебно-методическое пособие</em>), А.С. Почкайло, В.Ф. Жерносек,
+                                    Э.В. Руденко, Е.В. Руденко [18mb]<br><br></li>
+                                <li>
+                                    <a href="http://osteoporosis.belmapo.by/downloads/2010/instrukcii/formir_mnenija.doc"
+                                       target="_self">Формирование общественного мнения по изменению отношения к
+                                        остеопорозу в системе здравоохранения на 2008-2009 годы</a><br><br></li>
+                                <li>
+                                    «<a href="http://osteoporosis.belmapo.by/downloads/2010/instrukcii/sovr_aspecti_lechenija.pdf"
+                                        target="_self">Современные аспекты лечения остеопороза</a>», Руденко Э.В.,
+                                    д.м.н., профессор. [1.5mb]<br><br></li>
+                                <li><a href="http://osteoporosis.belmapo.by/downloads/2010/instrukcii/mkb_10.doc"
+                                       target="_self">МКБ 10 Класс XIII Болезни костно-мышечной системы и соединительной
+                                    ткани</a><br><br></li>
+                                <li>
+                                    <a href="http://osteoporosis.belmapo.by/downloads/2010/instrukcii/off_pos_klin_des.pdf"
+                                       target="_self">Официальная позиция международного общества клинической
+                                        денситометрии</a><br><br></li>
+                                <li>
+                                    <a href="http://osteoporosis.belmapo.by/downloads/2010/instrukcii/off_pos_pediatr.pdf"
+                                       target="_self">Официальная позиция в педиатрии международного общества
+                                        клинической денситометрии</a><br><br></li>
+                                <li>
+                                    <a href="http://osteoporosis.belmapo.by/downloads/2010/instrukcii/eur_rukovodstvo.pdf"
+                                       target="_self">Европейское руководство по диагностике и контролю над остеопорозом
+                                        у женщин</a><br><br></li>
+                                <li>
+                                    «<a href="http://osteoporosis.belmapo.by/downloads/2010/instrukcii/sposob_kompleksnoj_diagnostiki.pdf"
+                                        target="_self">Способ комплексной диагностики низкой костной массы и остеопороза
+                                    у детей и молодых взрослых</a>» (<em>инструкция по применению</em>), авторы: д.м.н.,
+                                    профессор Жерносек В.Ф., д.м.н., профессор Руденко Э.В., к.м.н., доцент Тарасюк
+                                    И.В., к.м.н., доцент Гресь Н.А., Руденко Е.В., Почкайло А.С., Романов Г.Н., Баранова
+                                    О.В. <br><br></li>
+                                <li>
+                                    «<a href="http://osteoporosis.belmapo.by/downloads/2010/instrukcii/sposob_bijavl_lic.pdf"
+                                        target="_self">Способ выявления лиц повышенного риска остеопоротических
+                                    переломов</a>» (<em>инструкция по применению</em>), авторы: д.м.н. Руденко Э.В.,
+                                    к.м.н. Беспальчук П.И., д.м.н. Сердюченко Н.С., Предко Н.М., Руденко Е.В.<br><br>
+                                </li>
+                                <li>
+                                    «<a href="http://osteoporosis.belmapo.by/downloads/2011/global_problem_osteoporoz.pdf"
+                                        target="_self">Аудит состояния проблемы остеопороза в странах Восточной Европы и
+                                    Центральной Азии 2010</a>», подготовлено м-ым Фондом остеопороза.<br><br></li>
+                                <li>«<a href="http://osteoporosis.belmapo.by/downloads/2011/zdorovaya_gazeta.pdf"
+                                        target="_self">Здоровая газета</a>» выпуск №18 2010 года,посвящённый
+                                    остеопорозу.<br><br></li>
+                                <li>
+                                    «<a href="http://osteoporosis.belmapo.by/downloads/2011/osteoporoz_info_for_patient.pdf"
+                                        target="_self">Пациенту об остеопорозе</a>», составители: Катрин Лаас,Катре
+                                    Маасалу.<br><br></li>
+                                <li>
+                                    <a href="http://belmapo.by/assets/files/osteoporosis/algoritm-profilaktiki-osteoporoticheskih-perelomov.pdf"
+                                       target="_self">Алгоритм профилактики остеопоротических переломов</a> (инструкция
+                                    по применению), авторы: Г.Н. Романов, Н.Ф. Чернова, Т.И. Москвичева, А.Е.
+                                    Филюстинм<br><br></li>
+                                <li>
+                                    <a href="http://belmapo.by/assets/files/osteoporosis/organizaciya-medicinskoj-pomoshhi-pacientam-s-redkimi-geneticheskimi-zabolevaniyami.pdf"
+                                       target="_self">Организация медицинской помощи пациентам с редкими генетическими
+                                        заболеваниями</a><br><br></li>
+                                <li>
+                                    <a href="http://belmapo.by/assets/files/osteoporosis/organizaciya-medicinskoj-pomoshhi-detyam-s-nesovershennym-osteogenezom.pdf"
+                                       target="_self">Организация медицинской помощи детям с несовершенным
+                                        остеогенезом<br><br></a></li>
+                                <li>
+                                    <a href="http://belmapo.by/assets/files/osteoporosis/diagnostika-i-lechenie-rahita-u-detej.pdf"
+                                       target="_self">«Современные подходы к диагностике, лечению и профилактике рахита
+                                        у детей»</a> (учебно-методическое пособие) А. С. Почкайло, В. Ф. Жерносек, Э. В.
+                                    Руденко, Н. В. Почкайло, Е. В. Ламеко <br><br></li>
+                                <li>
+                                    <a href="http://belmapo.by/assets/files/osteoporosis/metod-primeneniya-bisfosfonatov-v-lechenii-detej-s-nesovershennym-osteogenezom.pdf"
+                                       target="_self">«Метод применения бисфосфонатов в лечении детей с несовершенным
+                                        остеогенезом»</a> (инструкция по применению), авторы: к.м.н. А. С. Почкайло,
+                                    к.м.н. И. В. Наумчик, д.м.н., профессор В.Ф. Жерносек, д.м.н., профессор Э. В.
+                                    Руденко, к.м.н. О. В. Карась, Л. А. Легкая, Е. В. Ламеко<br></li>
+                            </ol>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--modal2-->
+        <div class="modal fade" id="myModa2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi dolor eaque earum.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--modal3-->
+    <div class="modal fade" id="myModa3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel4">Modal title</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi dolor eaque earum.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal4-->
+    <div class="modal fade" id="myModa4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel4">Modal title</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi dolor eaque earum.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<footer style="padding-bottom: 0px">
+    <div class="container-fluid" id="footer">
+        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+            <h3 class="text-left">Контактная информация</h3>
+            <p>г.Минск, пр-т Независимости 64, ЛПУ ’1-я ГКБ’</p>
+            <span>Телефон: (+375 17) 292-61-30</span>
+            <span><a href="mailto:osteoporosis.belarus@rambler.ru">osteoporosis.belarus@rambler.ru</a></span>
+
+        </div>
+        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+            <h3 class="text-left">Руководство </h3>
+            <p>Председатель БОО «Победим остеопороз вместе» <br>
+                Руденко Эмма Владимировна</p>
+            <div class="divider"></div>
+
+
+        </div>
+        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+            <h3 class="text-left">Мы на карте</h3>
+        </div>
+        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+            <h3 class="text-left">Разработка</h3>
+            <button type="button" class="btn btn-default btn-block" data-toggle="tooltip" data-placement="right"
+                    title="ЦИТ БЕЛМАПО" data-original-title="Tooltip on right">ЦИТ БЕЛМАПО
+            </button>
+        </div>
+    </div>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
